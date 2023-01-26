@@ -5,7 +5,7 @@ import TitleLine from "../ui/TitleLine"
 
 export default function MilestoneSection() {
   return (
-    <div>
+    <div className="mb-60">
       <TitleLine>TRACTION AND MILESTONE</TitleLine>
 
       <div className=" h-[5591px] relative flex justify-around w-2/3 mx-auto mt-40">
