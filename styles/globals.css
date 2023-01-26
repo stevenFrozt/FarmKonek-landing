@@ -7,3 +7,23 @@
 html {
   font-family: "Inter", sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(182, 182, 182);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(142, 142, 142);
+}

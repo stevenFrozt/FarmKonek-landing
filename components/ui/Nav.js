@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Nav() {
   return (
-    <div className="fixed top-0 w-full bg-white z-50 flex justify-between px-20 ">
+    <div className=" top-0 w-full bg-white z-50 flex justify-between px-20 ">
       {/* LOGO */}
       <div className="relative w-28 h-28">
         <Image
