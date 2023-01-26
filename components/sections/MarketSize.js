@@ -10,6 +10,7 @@ export default function MarketSize() {
           src={"/images/marketsize.png"}
           fill="cover"
           className="object-contain"
+          alt="marketsize"
         />
       </div>
       {/* Title */}

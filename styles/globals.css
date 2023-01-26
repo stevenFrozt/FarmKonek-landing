@@ -6,6 +6,8 @@
 
 html {
   font-family: "Inter", sans-serif;
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 ::-webkit-scrollbar {
@@ -26,4 +28,11 @@ html {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(142, 142, 142);
+}
+
+/*  SKEW ITEMS */
+@layer components {
+  .first-div:hover > .next-div {
+    @apply transform translate-x-0  transition-transform duration-200;
+  }
 }

@@ -43,6 +43,7 @@ export default function DownloadApp() {
           src="/images/downloadApp.png"
           fill
           className="object-contain absolute"
+          alt="downloadApp"
         />
       </div>
     </div>

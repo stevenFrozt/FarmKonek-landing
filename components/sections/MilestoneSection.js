@@ -5,7 +5,7 @@ import TitleLine from "../ui/TitleLine"
 
 export default function MilestoneSection() {
   return (
-    <div className="mb-60">
+    <div className="my-60">
       <TitleLine>TRACTION AND MILESTONE</TitleLine>
 
       <div className=" h-[5591px] relative flex justify-around w-2/3 mx-auto mt-40">
@@ -104,6 +104,8 @@ export default function MilestoneSection() {
           src="/images/line.svg"
           fill="cover"
           className="absolute object-contain mt-5 z-0"
+          alt="line"
+          priority
         />
         {/* end */}
         <div className="flex flex-col w-full z-50">
@@ -175,11 +177,11 @@ function Items({ className = "", children }) {
   return (
     <div className={`h-60 w-3/4 ${className} `}>
       {/* Image */}
-      <div className="w-full h-40 bg-gray-400 rounded-md"></div>
+      <div className="w-full h-60 bg-gray-400 rounded-md"></div>
       {/* description */}
       <div className=" flex items-stretch my-4">
         <div className="bg-primary text-primary rounded-full w-6 mr-4 "></div>
-        <p className="font-semibold">{children}</p>
+        <div className="font-semibold">{children}</div>
       </div>
     </div>
   )

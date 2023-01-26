@@ -2,7 +2,7 @@ import React from "react"
 
 export default function QouteSection() {
   return (
-    <div className="bg-secondary text-white h-screen flex justify-center items-center">
+    <div className="bg-secondary text-white h-screen flex justify-center items-center my-40">
       <div className="w-2/4 text-3xl flex justify-center">
         {/* left Top Qoute */}
         <img
