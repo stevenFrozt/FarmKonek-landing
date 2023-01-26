@@ -5,6 +5,7 @@ import Footer from "../components/sections/Footer"
 import DownloadApp from "../components/sections/DownloadApp"
 import CommunityLeaf from "../components/sections/CommunityLeaf"
 import MilestoneSection from "../components/sections/MilestoneSection"
+import GlobalVission from "../components/sections/GlobalVission"
 import Nav from "../components/ui/Nav"
 import Carousel from "../components/ui/Carousel"
 import TitleLine from "../components/ui/TitleLine"
@@ -33,7 +34,7 @@ export default function Home() {
       {/* Traction Milestone Section */}
       <MilestoneSection />
       {/* Global Vision*/}
-
+      <GlobalVission />
       {/* Market size */}
       <MarketSize />
 
