@@ -3,7 +3,7 @@ import TitleLine from "../ui/TitleLine"
 
 export default function Problem() {
   return (
-    <div className="h-screen bg-tertiary" id="problem">
+    <div className=" bg-tertiary pb-40 pt-20" id="problem">
       <TitleLine color="white" className="py-10">
         Problem
       </TitleLine>

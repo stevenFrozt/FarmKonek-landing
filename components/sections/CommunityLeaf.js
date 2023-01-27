@@ -9,6 +9,8 @@ export default function CommunityLeaf() {
         fill
         alt="community"
         className="object-contain absolute"
+        priority
+        unoptimized
       />
     </div>
   )

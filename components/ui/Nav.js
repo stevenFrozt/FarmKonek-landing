@@ -17,11 +17,15 @@ export default function Nav() {
       {/* Items */}
       <div className="flex items-center gap-10 font-semibold">
         <h3>Blog</h3>
+        <Link href="#product">
+          <h3>Product</h3>
+        </Link>
         <Link href="#problem">
           <h3>Problem</h3>
         </Link>
-        <h3>Product</h3>
-        <h3>Community</h3>
+        <Link href="#solution">
+          <h3>Solution</h3>
+        </Link>
         <Link href="#milestone">
           <h3>Traction and Milestone</h3>
         </Link>

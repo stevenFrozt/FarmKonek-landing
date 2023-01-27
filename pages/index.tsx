@@ -10,8 +10,9 @@ import Problem from "../components/sections/Problem"
 import Solution from "../components/sections/Solution"
 import Groupie from "../components/sections/Groupie"
 import PartnerSection from "../components/sections/PartnerSection"
+import Products from "../components/sections/Products"
+import LeaderSection from "../components/sections/LeaderSection"
 import Nav from "../components/ui/Nav"
-import Carousel from "../components/ui/Carousel"
 import Button from "../components/ui/Button"
 import TitleLine from "../components/ui/TitleLine"
 import Image from "next/image"
@@ -25,13 +26,15 @@ export default function Home() {
       {/* Community Section */}
       <CommunityLeaf />
       {/* Download The App Section */}
+      <div id="product"></div>
       <DownloadApp />
       {/* Product Section */}
-      <Carousel />
+      <Products />
       {/* Problem Section */}
       <div id="problem"></div>
       <Problem />
       {/* Solution Section */}
+      <div id="solution"></div>
       <Solution />
       {/* Traction Milestone Section */}
       <div id="milestone"></div>
@@ -43,6 +46,7 @@ export default function Home() {
       {/* Market size */}
       <MarketSize />
       {/* CEOs Section*/}
+      <LeaderSection />
       {/* Qoute Section*/}
       <QouteSection />
       {/* Partners Section*/}

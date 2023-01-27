@@ -14,7 +14,7 @@ export default function MarketSize() {
         />
       </div>
       {/* Title */}
-      <div className="absolute top-16 left-10 ml-8">
+      <div className="absolute top-16 left-32 ml-8">
         <h1 className="text-5xl font-bold text-primary">MARKET SIZE</h1>
         <p className="w-2/4 mt-4 text-lg text-gray-500">
           Our Market: Philippines and Global Industry players in need of raw

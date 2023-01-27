@@ -10,7 +10,7 @@ export default function Groupie() {
             src="/images/companyGroupie.png"
             alt="groupi"
             fill
-            className="object-cover absolute bg-white p-2 shadow-lg"
+            className="object-contain absolute bg-white p-2 shadow-lg"
           />
         </div>
         <div className="flex items-center justify-center w-1/2">
@@ -33,7 +33,7 @@ export default function Groupie() {
             src="/images/companyGroupie.png"
             alt="groupi"
             fill
-            className="object-cover absolute bg-white p-2 shadow-lg"
+            className="object-contain absolute bg-white p-2 shadow-lg"
           />
         </div>
         <div className="flex items-center justify-center w-1/2">

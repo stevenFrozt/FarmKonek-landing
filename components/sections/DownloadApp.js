@@ -3,7 +3,7 @@ import React from "react"
 
 export default function DownloadApp() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center pb-40">
       {/* content */}
       <div className="w-[40%] transform scale-110">
         <h1 className="font-bold text-4xl w-[289px]">
@@ -44,6 +44,7 @@ export default function DownloadApp() {
           fill
           className="object-contain absolute"
           alt="downloadApp"
+          unoptimized
         />
       </div>
     </div>
