@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 import TitleLine from "../ui/TitleLine"
 
@@ -9,21 +10,21 @@ export default function Problem() {
       </TitleLine>
       {/* Content */}
       <div className="flex justify-evenly -mt-10">
-        <CardItem number={1} title="Competency">
+        <CardItem number={1} title="Competency" url="/images/problemImage1.png">
           Lack of consistent focus to people, strategy operations
           <p className="text-xs text-gray-300 font-normal pt-2">
             Impedes growth in production and the efficient management of farms
             and networks.
           </p>
         </CardItem>
-        <CardItem number={2} title="Mapping">
+        <CardItem number={2} title="Mapping" url="/images/problemImage1.png">
           Dispersed nature of agriculture supply sources
           <p className="text-xs text-gray-300 font-normal pt-2">
             Hindrance in agricultural land's potential and human resource
             capability to recieve streamlined support or intervention.
           </p>
         </CardItem>
-        <CardItem number={3} title="Market">
+        <CardItem number={3} title="Market" url="/images/problemImage1.png">
           Inability to consolidate efficiently and access demand
           <p className="text-xs text-gray-300 font-normal pt-2">
             Difficult for industry participants to consolidate and access them
@@ -35,7 +36,7 @@ export default function Problem() {
   )
 }
 
-function CardItem({ title, number, children }) {
+function CardItem({ title, number, children, url }) {
   return (
     <div className=" w-60">
       {/* card */}
@@ -43,7 +44,16 @@ function CardItem({ title, number, children }) {
         <h1 className="text-[20rem] text-secondary transform -translate-x-24">
           {number}
         </h1>
-        <div className="bg-gray-500 absolute w-60 h-80 top-20 rounded-lg shadow-xl" />
+        <div className="bg-gray-500 absolute w-60 h-80 top-20 rounded-lg shadow-xl overflow-hidden ">
+          {url && (
+            <Image
+              src={url}
+              fill
+              alt="image"
+              className="object-cover absolute transform scale-125"
+            />
+          )}
+        </div>
       </div>
       {/* details */}
       <div className=" flex items-stretch -mt-16">

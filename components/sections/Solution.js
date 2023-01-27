@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 import TitleLine from "../ui/TitleLine"
 
@@ -73,7 +74,14 @@ function Items({ number, title, children }) {
       <div className=" w-1/2 flex items-center justify-center">
         <div className="relative -skew-x-6 hover:skew-x-0 transition-transform duration-200 first-div">
           <div className="bg-primary w-80 h-80  rounded-3xl  transform translate-x-4 hover:translate-x-0 transition-transform duration-200 next-div"></div>
-          <div className="bg-gray-400 w-80 h-80  rounded-3xl  transition-transform duration-200 absolute top-0"></div>
+          <div className="bg-gray-400 w-80 h-80  rounded-3xl  transition-transform duration-200 absolute top-0 overflow-hidden">
+            <Image
+              src="/images/testImage.png"
+              fill
+              alt="img"
+              className="object-cover absolute"
+            />
+          </div>
         </div>
       </div>
     </div>
